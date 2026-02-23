@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    
+<html>
+
+    <head>
+
+        This is the 2nd table.
+
+    </head>
+        
+    <body>
+        
+        <table border="1">                      <!-- This is the 2nd table. -->
+                                                <!-- Because of border we can see the margin around each cell. -->
+            <thead>                             <!-- If we want our headings of table should be visible as headings means in bold then we use "thead" where all our contents related headings will lie here. -->
+
+                <th>Student ID</th>             <!-- All the contents means headings in the "thead" which indicate table headings and data will be lie with "th" tag which indicate table head. -->
+                <th>Student Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+
+            </thead>
+
+            <tbody>                             <!-- the main part where our actual contents will be lie should be put in "tbody" tag which indicate table body. -->
+
+                <tr>                            <!-- For row we start with "tr" tag which indicate table row.-->
+
+                    <td>1234</td>               <!-- All the data in the row will be carried with "td" tag which indicate table data. -->
+                    <td colspan="2"> Bill</td>  <!-- Colspan is being used to extend our coloumns. -->
+                    <td>17</td>
+                
+                </tr>
+                <tr>
+
+                    <td>2345</td>
+                    <td>John</td>
+                    <td>Male</td>
+                    <td rowspan="2">19</td>     <!-- Rowspan is being used to extend our rows. -->
+
+                </tr>
+                <tr>
+
+                    <td>56</td>
+                    <td>Mike</td>
+                    <td>Male</td>
+
+                </tr>
+                <tr>
+
+                    <td>53</td>
+                    <td>Priyanka</td>
+                    <td>Male</td>
+                    <td>25</td>
+
+                </tr>
+
+            </tbody>
+
+            <tfoot>                             <!-- The footer will be tagged by "tfoot" tag. -->
+
+                <tr>                            <!-- Here also we can give table row "tr". -->
+                                                <!-- All the data in the row will be put into table data "td". -->
+                    <td colspan="4">Hey this is the foot.</td>  
+
+                </tr>  
+
+            </tfoot>
+
+        </table>
+
+    </body>
+
+</html>
